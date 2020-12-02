@@ -1,13 +1,11 @@
 window.addEventListener('DOMContentLoaded', function() {
     'use strict';
-
+    // -------------------------------------------------
     // Modal
-    // ------------------------------------------------------
+    // -------------------------------------------------
 
     let consFooter = document.querySelector('.button_footer'),
         consHeader = document.querySelector('.header__cons'),
-        // consDirect1 = document.querySelector('.direct1'),
-        // consDirect2 = document.querySelector('.direct2'),
         overlay = document.querySelector('.overlay'),
         close = document.querySelector('.popup-close');
 
@@ -29,11 +27,9 @@ window.addEventListener('DOMContentLoaded', function() {
         consHeader.classList.remove('more-splash');
         document.body.style.overflow = '';
     });
-    // ------------------------------------------------------
-
-
-    // ------------------------------------------------------
-
+    // -------------------------------------------------
+    //
+    // -------------------------------------------------
 
 
 });
